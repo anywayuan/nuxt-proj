@@ -1,4 +1,4 @@
-# dome
+# Nuxt.js 2.x 项目配置
 
 ## Build Setup
 
