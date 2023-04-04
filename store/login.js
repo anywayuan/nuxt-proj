@@ -14,7 +14,7 @@ export const actions = {
   async loginFetch({commit}, payload) {
     const apiInstance = api(this.$api)
     const resources = await apiInstance.login(payload)
-    commit('SET_USER_INFO', resources)
+    commit('SET_USER_INFO', resources.data)
     return resources
   }
 }
