@@ -19,6 +19,8 @@
     "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
-    "@nuxt/types": "~2.16.0"
+    "@nuxt/types": "~2.16.0",
+    "sass": "^1.61.0",
+    "sass-loader": "^10.1.1"
   }
 }

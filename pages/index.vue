@@ -1,18 +1,6 @@
 <template>
   <div>
-    <div style="display: flex;gap: 0 30px;">
-      <ul>
-        <li v-for="item in hotList.data" :key="item.id">{{ item.name }}</li>
-      </ul>
-      <ul>
-        <li v-for="item in rankList.data" :key="item.id">{{ item.name }}</li>
-      </ul>
-    </div>
-    <button @click="handleButton(1)">login</button>
-    <button @click="handleButton(2)">logout</button>
-    <h1 v-if="userInfo && userInfo.company && userInfo.company.length > 0">
-      {{ userInfo.company[0].name }}
-    </h1>
+
   </div>
 </template>
 
@@ -35,10 +23,10 @@ async function fetchData(apiInstance) {
 
 export default {
   name: 'IndexPage',
-  async asyncData({app}) {
+  /*async asyncData({app}) {
     const apiInstance = api(app.$api)
     return await fetchData(apiInstance)
-  },
+  },*/
   data() {
     return {
       isShow: false,
