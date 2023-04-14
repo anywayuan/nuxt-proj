@@ -1,5 +1,4 @@
-// plugins/directives.js
 import Vue from 'vue';
-import draggable from './draggable';
+import draggable from '@/directive/draggable';
 
 Vue.directive('draggable', draggable);

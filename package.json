@@ -17,6 +17,7 @@
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
+    "vuedraggable": "^2.24.3",
     "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {

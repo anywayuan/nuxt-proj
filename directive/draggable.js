@@ -1,4 +1,12 @@
-// plugins/draggable.js
+/**
+ * @description: 拖拽指令 将元素拖拽到指定页面中任何位置
+ * @param {HTMLElement} el
+ * @param {Object} binding
+ * @param {Object} vnode
+ * @param {Object} oldVnode
+ * @return {*}
+ * @example: <div v-draggable></div>
+ * */
 export default {
   bind(el) {
     let initialX = 0;
